@@ -1,0 +1,29 @@
+{
+  "name": "split-chunk-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm webpack && pnpm rsbuild && pnpm preview",
+    "webpack": "rm -rf ./dist/webpack && webpack --mode=production",
+    "rsbuild": "rm -rf ./dist/rsbuild && rsbuild build",
+    "preview": "npx http-server -c-1 -p 8080 ./dist/webpack & npx http-server -c-1 -p 8081 ./dist/rsbuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ahooks": "^3.8.1",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-use": "^17.5.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.19",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
