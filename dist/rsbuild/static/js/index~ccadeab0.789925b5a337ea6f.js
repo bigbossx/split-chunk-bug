@@ -1,4 +1,4 @@
-"use strict";(self.webpackChunkminsize_bug=self.webpackChunkminsize_bug||[]).push([["index~ccadeab0"],{"./src/400k.js":function(t,e,a){a.d(e,{AH:function(){return c},BU:function(){return s},JY:function(){return p},L_:function(){return n},bO:function(){return f},c9:function(){return r},ck:function(){return y},jA:function(){return o}});let o=()=>`
+"use strict";(self.webpackChunksplit_chunk_bug=self.webpackChunksplit_chunk_bug||[]).push([["index~ccadeab0"],{"./src/400k.js":function(t,e,a){a.d(e,{AH:function(){return c},BU:function(){return s},JY:function(){return p},L_:function(){return n},bO:function(){return f},c9:function(){return r},ck:function(){return y},jA:function(){return o}});let o=()=>`
     <h1>50k</h1>
     <p>40050k is a simple React app that renders 50,000 divs to the DOM.</p>
     <p>400It's a great way to test the performance of your React app.</p>
