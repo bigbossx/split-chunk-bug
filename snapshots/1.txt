@@ -1,0 +1,20 @@
+
+> split-chunk-bug@1.0.0 rsbuild
+> rm -rf ./dist/rsbuild && rsbuild build
+
+  Rsbuild v1.0.19
+
+ready   Built in 0.22 s (web)
+
+  File (web)                                                                                                                                         Size        Gzip    
+  dist/rsbuild/index.html                                                                                                                            1.2 kB      0.48 kB
+  dist/rsbuild/static/js/vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_useClickAway_index-ee2cf9.4d80403a524e9754.js    58.2 kB     15.5 kB
+  dist/rsbuild/static/js/vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_createUseStorageSt-8ad52d.8677eac513b866b9.js    58.8 kB     16.0 kB
+  dist/rsbuild/static/js/vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_createDeepCompareE-8cc2d6.942f39f78420aa9a.js    60.9 kB     13.7 kB
+  dist/rsbuild/static/js/vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_index_js-node_modu-35657c.b06019088ed848ce.js    64.9 kB     14.9 kB
+  dist/rsbuild/static/js/vendors-node_modules_pnpm_xobotyi_scrollbar-width_1_9_5_node_modules_xobotyi_scrollbar-width_-f780ac.7302faeec44a9249.js    223.3 kB    64.4 kB
+  dist/rsbuild/static/js/index~ccadeab0.789925b5a337ea6f.js                                                                                          412.5 kB    2.6 kB
+  dist/rsbuild/static/js/index~1.65a3103cda4991a3.js                                                                                                 455.7 kB    5.0 kB
+
+  Total: 1335.5 kB (gzip: 132.6 kB)
+

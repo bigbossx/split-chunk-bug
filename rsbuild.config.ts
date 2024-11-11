@@ -5,7 +5,7 @@ import path from "path";
 export default defineConfig({
   output: {
     distPath: {
-      root: "dist/rsbuild",
+      root: `dist/rsbuild`,
     },
     filename: {
       js: "[name].[contenthash].js",

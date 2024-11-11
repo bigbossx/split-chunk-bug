@@ -1,0 +1,53 @@
+
+> split-chunk-bug@1.0.0 webpack
+> rm -rf ./dist/webpack && webpack --mode=production
+
+assets by chunk 359 KiB (id hint: vendors)
+  asset vendors-node_modules_pnpm_copy-to-clipboard_3_3_3_node_modules_copy-to-clipboard_index_js-nod-b09763.568f811f9e677b961f11.js 157 KiB [emitted] [immutable] [minimized] (id hint: vendors) 1 related asset
+  asset vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_index_js.d8b6f07b3ebe6c913d17.js 61.2 KiB [emitted] [immutable] [minimized] (id hint: vendors)
+  asset vendors-node_modules_pnpm_xobotyi_scrollbar-width_1_9_5_node_modules_xobotyi_scrollbar-width_-3287a0.e227023bf756ff8509bc.js 53.7 KiB [emitted] [immutable] [minimized] (id hint: vendors) 1 related asset
+  asset vendors-node_modules_pnpm_react-use_17_5_1_react-dom_18_3_1_react_18_3_1_node_modules_react-u-0b4141.427635a1888ff708dca3.js 52.5 KiB [emitted] [immutable] [minimized] (id hint: vendors)
+  asset vendors-node_modules_pnpm_axios_1_7_7_node_modules_axios_lib_axios_js.1fcdca6c76367905cfca.js 34.2 KiB [emitted] [immutable] [minimized] (id hint: vendors)
+asset main-caf1e2b0.cd92db29a7f34557ef11.js 408 KiB [emitted] [immutable] [minimized] [big] (name: main-caf1e2b0)
+asset main-7138c7c6.d6186f7711942171d336.js 153 KiB [emitted] [immutable] [minimized] (name: main-7138c7c6)
+asset main-2b3e1616.4e1e06fa233c383d4f9d.js 150 KiB [emitted] [immutable] [minimized] (name: main-2b3e1616)
+asset main-77308e6c.88d1fa2e7ad6d135801e.js 150 KiB [emitted] [immutable] [minimized] (name: main-77308e6c)
+asset index.html 1.25 KiB [emitted]
+Entrypoint main [big] 1.19 MiB = 9 assets
+orphan modules 492 KiB [orphan] 248 modules
+runtime modules 4.65 KiB 8 modules
+cacheable modules 1.51 MiB
+  modules by path ./node_modules/.pnpm/ 699 KiB 90 modules
+  modules by path ./src/*.js 845 KiB
+    ./src/index.js + 3 modules 148 KiB [built] [code generated]
+    ./src/50k-1.js 49.1 KiB [built] [code generated]
+    ./src/50k-2.js 49.1 KiB [built] [code generated]
+    ./src/50k-3.js 49.1 KiB [built] [code generated]
+    ./src/50k-4.js 49.1 KiB [built] [code generated]
+    ./src/50k-5.js 49.1 KiB [built] [code generated]
+    ./src/50k-6.js 49.1 KiB [built] [code generated]
+    ./src/400k.js 403 KiB [built] [code generated]
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  main-caf1e2b0.cd92db29a7f34557ef11.js (408 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.19 MiB)
+      vendors-node_modules_pnpm_ahooks_3_8_1_react_18_3_1_node_modules_ahooks_es_index_js.d8b6f07b3ebe6c913d17.js
+      vendors-node_modules_pnpm_axios_1_7_7_node_modules_axios_lib_axios_js.1fcdca6c76367905cfca.js
+      vendors-node_modules_pnpm_copy-to-clipboard_3_3_3_node_modules_copy-to-clipboard_index_js-nod-b09763.568f811f9e677b961f11.js
+      vendors-node_modules_pnpm_react-use_17_5_1_react-dom_18_3_1_react_18_3_1_node_modules_react-u-0b4141.427635a1888ff708dca3.js
+      vendors-node_modules_pnpm_xobotyi_scrollbar-width_1_9_5_node_modules_xobotyi_scrollbar-width_-3287a0.e227023bf756ff8509bc.js
+      main-caf1e2b0.cd92db29a7f34557ef11.js
+      main-2b3e1616.4e1e06fa233c383d4f9d.js
+      main-77308e6c.88d1fa2e7ad6d135801e.js
+      main-7138c7c6.d6186f7711942171d336.js
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+webpack 5.96.1 compiled with 3 warnings in 2545 ms
