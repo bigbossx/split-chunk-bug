@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "rsbuild dev",
     "test": "pnpm webpack && pnpm rsbuild && pnpm preview",
     "webpack": "rm -rf ./dist/webpack && webpack --mode=production",
     "rsbuild": "rm -rf ./dist/rsbuild && rsbuild build",

@@ -3,6 +3,9 @@ import { commonSize } from "./common";
 import path from "path";
 
 export default defineConfig({
+  dev:{
+    lazyCompilation: true,
+  },
   output: {
     distPath: {
       root: `dist/rsbuild`,
